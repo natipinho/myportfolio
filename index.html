@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfólio de Natália Pinho</title>
+  </head>
+
+  <body>
+    <header>
+      <section id="logo">
+      <img
+      src="img/image-OCOBC6DjtnQdnSysIzLVNNUcJ69u4a.png"
+      alt=""
+      />
+      <h1>Natália Joaquim</h1>
+      <p>Futura FrontEnd Developer</p>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="a">Sobre mim</a></li>
+          <li><a href="a">Projetos</a></li>
+          <li><a href="a">Contrate-me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <img
+          src="img/foto_natalia.png"
+          alt="Foto de perfil de Natália Pinho a sorrir"
+          width="180px"
+        />
+        <h2>Sobre mim</h2>
+        <p>
+          Com mais de 20 anos de experiência na área da educação, dediquei minha
+          carreira a ajudar principalmente adultos a alcançarem fluência em
+          inglês e, consequentemente, seus objetivos profissionais relacionados
+          ao uso de uma língua estrangeira. Fundei minha própria escola online
+          de inglês e espanhol, onde atuei na gestão do projeto e na coordenação
+          de equipas, sempre com foco em ensino personalizado. Atualmente, estou
+          expandindo meus horizontes ao desenvolver fluência nas linguagens
+          essenciais do presente: as linguagens de programação. No futuro,
+          pretendo integrar minhas paixões — novas e antigas — para colaborar e
+          desenvolver soluções voltadas a áreas como educação, treinamento e
+          intercâmbio cultural.
+        </p>
+      </section>
+      <h2>Meus Projetos</h2>
+      <section class="projetos">
+        <figure>
+          <a href="https://natipinho.github.io/myfirstproject/" target="_blank"
+            ><img
+              src="/img/projeto1.png"
+              alt="Foto ilustrativa do projeto de uma página sobre gatos"
+          /></a>
+
+          <figcaption>Projeto 1: All About Cats</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://placehold.co/400x300"
+            alt="Foto ilustrativa de página sobre checagem de preços de cursos de idioma"
+          />
+          <figcaption>Projeto 2: Lingo House Price Checker</figcaption>
+        </figure>
+        <figure>
+          <img
+            src="https://placehold.co/400x300"
+            alt="Foto ilustrativa do website da escola Lingo House"
+          />
+          <figcaption>Projeto 3: Lingo House Website</figcaption>
+        </figure>
+        <figure>
+          <img src="https://placehold.co/400x300" alt="" />
+          <figcaption>Projeto 4:</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Formação</h2>
+        <ol>
+          <li>UpSkill: Frontend + IA</li>
+          <li>Cambridge C2 Proficiency</li>
+          <li>
+            Cambridge Certificate in Teaching English to Speakers of Other
+            Languages
+          </li>
+          <li>Letras - Português/Mandarim</li>
+        </ol>
+      </section>
+      <section class="media">
+      <h2>Mídia</h2>
+      <p>Alguns dos meus vídeos favoritos!</p>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/TjPFZaMe2yw?si=z_BMfLNysVZq_22Q"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/RKK7wGAYP6k?si=Ruo7ahXLamPuws_I"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        referrerpolicy="strict-origin-when-cross-origin"
+        allowfullscreen
+      ></iframe>
+      </section>
+      <section class="contatos">
+        <h2>Contrate-me!</h2>
+        <ul>
+          <li><a href="https://wa.me/351911976972?text=Hey%20Natalia,%20cheguei%20através%20do%20seu%20portfólio." target="_blank"><i class="fa-brands fa-whatsapp"></i>whatsapp</a
+        ></li>
+        <li><a href="https://www.linkedin.com/in/nataliapinho/" target="_blank"
+          ><i class="fa-brands fa-linkedin"></i>linkedin</a>
+          </li>
+        <li><a href="https://github.com/natipinho" target="_blank"><i class="fa-brands fa-github"></i>github</a>
+        </li>
+        </ul>
+      <fieldset>
+        <legend><h3>Vamos conversar</h3></legend>
+        <form onsubmit="enviarForm(event)">
+          <label for="uid">Nome: *</label>
+          <input
+            id="uid"
+            type="text"
+            required
+            placeholder="Digite seu nome"
+          /><br />
+          <label for="uemail">E-mail: *</label>
+          <input
+            id="uemail"
+            type="email"
+            required
+            placeholder="Digite seu e-mail"
+          /><br />
+          <label for="utel">Telefone:</label>
+          <input id="utel" type="tel" placeholder="xxx xxx xxx" maxlength="9" /><br />
+          <label for="subj">Assunto:</label>
+          <select>
+            <option label="Recrutamento">Recrutamento</option>
+            <option label="Freelance">Freelance</option>
+            <option label="Dúvidas">Dúvidas</option>
+            <option label="Sugestões">Sugestões</option></select
+          ><br />
+          <label for="utel">Mensagem: *</label>
+          <textarea
+            rows="5"
+            required
+            minlength="10"
+            placeholder="Escreva aqui sua mensagem."
+          ></textarea>
+          <br /><button type="submit">
+            Enviar Mensagem <i class="fa-regular fa-envelope"></i>
+          </button>
+        </form>
+      </fieldset>
+      <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12510.116850129512!2d-9.166932936962308!3d38.75626089806895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1932e2dc27dd69%3A0x9c44c081f003864b!2sEdificio%20C6%20-%20Faculdade%20de%20Ci%C3%AAncias%20da%20Universidade%20de%20Lisboa!5e1!3m2!1spt-PT!2spt!4v1766097717881!5m2!1spt-PT!2spt"
+        title="Map"
+        width="100%"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+      </section>
+    </main>
+    <footer>
+      ©2025 Desenvolvido por
+      <a href="https://github.com/natipinho" target="_blank">Natália Joaquim</a>
+    </footer>
+
+    <script>
+      function enviarForm(event) {
+        event.preventDefault();
+        alert("Obrigado pelo contacto! Responderei em breve.");
+      }
+    </script>
+  </body>
+</html>
