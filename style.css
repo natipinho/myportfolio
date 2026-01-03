@@ -207,9 +207,11 @@ form {
 
 form label {
     grid-column: 1;
+    align-content: center;
 }
 
-form input, form select {
+form input,
+form select {
     margin: 10px;
     grid-column: 2;
     height: 30px;
@@ -269,18 +271,15 @@ footer a {
 
     #logo {
         justify-self: start;
-        /* Alinha à esquerda */
     }
 
     nav {
         justify-self: end;
-        /* Alinha à direita */
         align-self: center;
     }
 
     nav ul {
         justify-content: flex-end;
-        /* Botões à direita */
     }
 
     #about {
@@ -310,9 +309,17 @@ footer a {
         gap: 30px;
     }
 
+    fieldset {
+        width: 80%;
+        align-items: center;
+        justify-self: center;
+        padding: 0px 10px;
+
+    }
+
     form textarea {
-    height: 120px;
-}
+        height: 120px;
+    }
 }
 
 /* checagem de alinhamento
