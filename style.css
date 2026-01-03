@@ -263,8 +263,14 @@ footer a {
    -------------MEDIA QUERIES-------------------- */
 
 @media (min-width: 768px) {
-    header {
+
+    body {
         font-size: larger;
+
+    }
+
+
+    header {
         grid-template-columns: 1fr 1fr;
         text-align: left;
     }
