@@ -65,7 +65,7 @@ header {
 nav {
     display: flex;
     justify-self: center;
-    font-size:small;
+    font-size: small;
 }
 
 nav ul {
@@ -92,10 +92,12 @@ nav li a {
     flex-wrap: wrap;
     align-items: center;
     text-align: justify;
-    padding: 40px 0px;
     gap: 30px;
 }
 
+#formacao {
+    padding-bottom: 20px;
+}
 
 .cards {
     display: flex;
@@ -105,12 +107,10 @@ nav li a {
 
 .cards img {
     width: 100%;
-    gap: 30px;
-
 }
 
 figure :hover {
-    transform: scale(1.10)
+transform: scale(1.20);
 }
 
 figure {
@@ -296,6 +296,13 @@ footer a {
         flex-direction: row;
         justify-items: center;
         align-items: flex-start;
+    }
+
+    .cards {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
     }
 
     #textabout {
