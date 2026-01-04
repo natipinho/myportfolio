@@ -130,7 +130,7 @@ img {
 }
 
 .contatos {
-    padding: 20px;
+    padding: 30px;
     border-radius: 12px;
     background-color: #415A77;
     color: #F4F1EA;
@@ -141,10 +141,12 @@ img {
     padding-bottom: 15px;
 }
 
+
 .contatos ul {
-    padding: 0;
     margin: 0;
-    display: flex;
+    padding: 0;
+    padding-bottom: 30px;
+    display: grid;
     justify-self: center;
     list-style-type: none;
     flex-wrap: wrap;
@@ -169,25 +171,6 @@ img {
     color: #F4F1EA;
     border: none;
     border-radius: 10px;
-}
-
-
-
-.midia {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-.midia iframe {
-    width: 100%;
-    max-width: 560px;
-    padding-bottom: 30px;
-    aspect-ratio: 16 / 9;
-    height: auto;
-    border: 0;
 }
 
 fieldset {
@@ -232,10 +215,27 @@ form textarea {
 form button {
     width: 50%;
     margin: 15px;
-    padding: 15px;
+    padding: 20px;
     grid-column: 1/3;
     align-self: center;
     justify-self: center;
+}
+
+.midia {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.midia iframe {
+    width: 100%;
+    max-width: 560px;
+    padding-bottom: 30px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    border: 0;
 }
 
 .location {
@@ -325,6 +325,16 @@ footer a {
         gap: 30px;
     }
 
+    .contatos ul {
+    margin: 0;
+    padding-bottom: 30px;
+    display: flex;
+    justify-self: center;
+    list-style-type: none;
+    flex-wrap: wrap;
+    min-width: 60px;
+    gap: 30px;
+}
     fieldset {
         width: 80%;
         align-items: center;

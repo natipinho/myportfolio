@@ -111,10 +111,8 @@
         <li><a href="https://github.com/natipinho" target="_blank"><i class="fa-brands fa-github"></i>github</a>
         </li>
       </ul>
-      <fieldset>
-        <legend>
-          <h3>Vamos conversar</h3>
-        </legend>
+      <fieldset id="contactform">
+        <legend>Formulário de Contacto</legend>
         <form onsubmit="enviarForm(event)">
           <label for="uid">Nome: *</label>
           <input id="uid" type="text" required placeholder="Digite seu nome" /><br />
@@ -124,10 +122,10 @@
           <input id="utel" type="tel" placeholder="xxx xxx xxx" maxlength="9" /><br />
           <label for="subj" id="subject">Assunto:</label>
           <select>
-            <option label="Recrutamento">Recrutamento</option>
-            <option label="Freelance">Freelance</option>
-            <option label="Dúvidas">Dúvidas</option>
-            <option label="Sugestões">Sugestões</option>
+            <option aria-label="Recrutamento">Recrutamento</option>
+            <option aria-label="Freelance">Freelance</option>
+            <option aria-label="Dúvidas">Dúvidas</option>
+            <option aria-label="Sugestões">Sugestões</option>
           </select><br />
           <label for="utel">Mensagem: *</label>
           <textarea rows="5" required minlength="10" placeholder="Escreva aqui sua mensagem."></textarea>
