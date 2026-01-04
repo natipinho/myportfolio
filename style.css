@@ -159,6 +159,7 @@ img {
     justify-self: center;
     padding: 10px;
     border-radius: 12px;
+    border: solid 2px;
     background-color: #D96C4D;
     text-decoration-line: none;
     color: #F4F1EA;
