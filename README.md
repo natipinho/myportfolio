@@ -27,8 +27,6 @@ A fun and interactive landing page about feline curiosities.
 * **Features:** Interactive JavaScript alerts, custom CSS gradients, and responsive layout.
 * **Goal:** My SheCodes Basic Final Project.
 
-*(Note: You can add more projects here as you update your portfolio!)*
-
 ---
 
 ## 📱 Contact & Social Media
