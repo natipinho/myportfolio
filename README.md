@@ -1,49 +1,52 @@
-# 👩🏻‍💻 Natália Pinho | Front-end Developer Portfolio
+# 👩🏻‍💻 Natália Pinho | Portfólio de Desenvolvedora Front-end
 
-Welcome to my personal portfolio! This project showcases my journey as a Front-end Developer, featuring the skills I've acquired and the projects I've built during my coding path.
+Bem-vindo(a) ao repositório do meu portfólio pessoal! Este projeto é o hub central que apresenta minha trajetória como Desenvolvedora Front-end, as competências que adquiri e os projetos que construí.
 
-🏠 **Live Demo:** [natipinho.github.io/myportfolio/](https://natipinho.github.io/myportfolio/)
+🏠 **Demonstração ao Vivo:** [natipinho.github.io/myportfolio/](https://natipinho.github.io/myportfolio/)
 
----
+## 🚀 Sobre o Projeto
 
-## 🚀 About Me
+Este site foi desenvolvido para servir como meu cartão de visitas digital, focando em uma experiência limpa, responsiva e de fácil navegação para apresentar meu trabalho ao mundo.
 
-I am a passionate developer focused on creating clean, responsive, and user-friendly web experiences. My portfolio serves as a central hub for my professional background, technical stack, and my favorite creations.
+* **Autora do Projeto:** Natália Pinho
+* **Repositório GitHub:** [github.com/natipinho/myportfolio](https://github.com/natipinho/myportfolio)
 
----
 
-## 🛠️ Technical Stack
+## 🛠️ Stack Técnica
 
-* **Languages:** HTML5, CSS3, JavaScript (ES6+).
-* **Design & Tools:** Responsive Design, CSS Gradients, Flexbox, Git/GitHub.
-* **Current Learning:** Advancing my skills in React and advanced web styling.
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![Git](https://img.shields.io/badge/git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
 
----
+* **Design & Layout:** Design Responsivo, Flexbox.
 
-## 📂 Featured Projects
 
-### 🐱 I 🫶🏻 Cats Page
-A fun and interactive landing page about feline curiosities.
-* **Features:** Interactive JavaScript alerts, custom CSS gradients, and responsive layout.
-* **Goal:** My SheCodes Basic Final Project.
+## ⚙️ Passos para Executar a Página
 
----
+Se desejar visualizar o código e executar o projeto localmente, siga os passos abaixo:
 
-## 📱 Contact & Social Media
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/natipinho/myportfolio.git](https://github.com/natipinho/myportfolio.git)
+    ```
+2.  **Navegue até a pasta:**
+    ```bash
+    cd myportfolio
+    ```
+3.  **Abra o projeto:**
+    Basta abrir o arquivo `index.html` no seu navegador ou utilizar a extensão **Live Server** no VS Code para uma visualização em tempo real.
 
-I'm always open to collaborating on new projects or just chatting about technology!
+## 🧠 Principais Decisões e Justificativa de Adequação
 
-* **LinkedIn:** [linkedin.com/in/nataliapinho](https://www.linkedin.com/in/nataliapinho/)
-* **Instagram:** [Follow my journey](https://www.instagram.com/p/CbaORstMWZ_/)
-* **GitHub:** [github.com/natipinho](https://github.com/natipinho)
+O desenvolvimento deste portfólio seguiu decisões estratégicas para garantir qualidade técnica e visual:
 
----
+* **Abordagem Mobile-First:** A estrutura foi planeada primeiro para ecrãs pequenos e depois expandida.
+    * Garante que o site seja acessível e tenha uma performance excelente em dispositivos móveis, que representam a maioria dos acessos atuais.
+* **Uso de Flexbox:** Utilizado para todo o posicionamento de elementos.
+    * Oferece um layout fluido e evita quebras visuais em diferentes resoluções de ecrã, mantendo o código limpo.
+* **Foco em Tipografia e Legibilidade:**
+    * Como um portfólio deve comunicar informações rapidamente, optei por um design minimalista para que a minha experiência e projetos sejam o destaque principal, sem distrações desnecessárias.
 
-## 🎨 Design Inspiration
-The portfolio features a minimalist design with:
-- Dark/Light mode aesthetics.
-- Smooth navigation.
-- A focus on typography and readability.
-
----
-*Built with ❤️ by Natália Pinho.*
+*Construído com ❤️ por Natália Pinho.*
